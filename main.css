@@ -111,7 +111,8 @@ a, nav p {
     grid-template-rows: repeat (4, 1fr);
     grid-gap: 2%;
     margin: 1.5%;
-    height: 80vh;
+    width: 20%;
+    height: 40%;
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5%;
