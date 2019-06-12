@@ -106,7 +106,7 @@ a, nav p {
 }
 
 .tiled-gallery {
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
