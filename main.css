@@ -129,6 +129,8 @@ a, nav p {
 
 #rotate {
     transform: rotate(90deg);
+    width:25%;
+    height: 75%;
 }
 
 .button {
