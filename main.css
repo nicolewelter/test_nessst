@@ -83,7 +83,7 @@ a, nav p {
     padding: 15px 30px 15px 15px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        -box-border: border box;
+        -box-border: border-box;
     margin: 0px;
     text-align: right;
 }
@@ -106,7 +106,6 @@ a, nav p {
 }
 
 .tiled-gallery {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat (4, 1fr);
@@ -119,6 +118,9 @@ a, nav p {
 }
 
 .tile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 25%;
     margin: 1.5% 0;
     height: 75%;
