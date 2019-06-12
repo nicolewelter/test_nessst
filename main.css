@@ -118,17 +118,18 @@ a, nav p {
 }
 
 #rotate {
-    transform: rotate(90deg);
+    
 }
 
 #img1 {
-  background: url('assets/images/IMG_3539.JPG');
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-size: cover;
-  background-position: center;
+  	background: url('assets/images/IMG_3539.JPG');
+  	grid-column-start: 1;
+  	grid-column-end: 2;
+  	grid-row-start: 1;
+  	grid-row-end: 2;
+  	background-size: cover;
+  	background-position: center;
+	transform: rotate(90deg);
     
 }
 
@@ -144,14 +145,15 @@ a, nav p {
 }
 
 #img3 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: url('assets/images/BookCoverRoughDraft_WelterN.jpg');  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 1;
+  	grid-row-end: 2;
+  	background: url('assets/images/BookCoverRoughDraft_WelterN.jpg');  
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+	transform: rotate(90deg);
 }
 
 #img4 {
@@ -231,14 +233,15 @@ a, nav p {
   background-position: center;
 }
 #img11 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: url('assets/images/WelterNicole_LACPoster_Final.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	background: url('assets/images/WelterNicole_LACPoster_Final.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+	transform: rotate(90deg);
 }
 
 #img12 {
