@@ -115,8 +115,9 @@ a, nav p {
 }
 
 .tile {
-    width: 23%;
+    width: 25%;
     margin: 1.5% 0;
+    height: 50%;
 }
 
 #rotate {
