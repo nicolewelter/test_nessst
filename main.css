@@ -115,15 +115,13 @@ a, nav p {
 }
 
 .tile {
-    width: 35%;
+    width: 25%;
+    height: 60%;
     margin: 1.5% 0;
-    height: 50%;
 }
 
 #rotate {
     transform: rotate(90deg);
-    width:25%;
-    height: 75%;
 }
 
 .button {
