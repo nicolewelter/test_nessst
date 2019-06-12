@@ -106,16 +106,17 @@ a, nav p {
 }
 
 .tiled-gallery {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 2.5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
 }
 
 .tile {
-	 margin: 1.5% 0;
+    width: 23%;
+    margin: 1.5% 0;
 }
 
 #rotate {
