@@ -106,22 +106,15 @@ a, nav p {
 }
 
 .tiled-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat (4, 1fr);
-    grid-gap: 2%;
-    margin: 1.5%;
-    width: 35%;
-    height: 50%;
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5%;
 }
 
 .tile {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 35%;
     margin: 1.5% 0;
     height: 50%;
