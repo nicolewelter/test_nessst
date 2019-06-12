@@ -119,6 +119,10 @@ a, nav p {
     margin: 1.5% 0;
 }
 
+#rotate {
+    transform: rotate(90deg);
+}
+
 .button {
     display: block;
     width: 20%;
