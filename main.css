@@ -118,6 +118,7 @@ a, nav p {
 .tile {
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 50%;
 }
 
 #rotate {
