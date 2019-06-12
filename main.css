@@ -106,9 +106,9 @@ a, nav p {
 }
 
 .tiled-gallery {
-    width: 100%;
+    height: 80vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5%;
@@ -121,6 +121,90 @@ a, nav p {
 
 #rotate {
     transform: rotate(90deg);
+}
+
+#img1 {
+  background: url('assets/images/IMG_3539.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    
+}
+
+#img2 {
+  background: url('assets/images/IMG_3504.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img3 {
+  background: url('assets/images/BookCoverRoughDraft_WelterN.jpg');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img4 {
+  background: url('assets/images/IMG_3543.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img5 {
+  background: url('assets/images/IMG_0349.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img6 {
+  background: url('assets/images/IMG_3542.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img7 {
+  background: url('assets/images/IMG_3540.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#img8 {
+  background: url('assets/images/stickerdesign_Welter.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img9 {
+  background: url('assets/images/FormstormingFinal_WelterN.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img10 {
+  background: url('assets/images/IMG_3544.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#img11 {
+  background: url('assets/images/WelterNicole_LACPoster_Final.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#img12 {
+  background: url('assets/images/Grids_Welter_Nicole.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .button {
