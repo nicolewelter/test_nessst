@@ -106,106 +106,24 @@ a, nav p {
 }
 
 .tiled-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat (4, 1fr);
-    grid-gap: 20px;
-    margin: 75px;
-    height: 80vh;
-    justify-content: center;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2.5%;
 }
 
 .tile {
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 50%;
+	 width: 25%;
+	 height: 60%;
+	 margin: 1.5% 0;
 }
 
 #rotate {
     transform: rotate(90deg);
 }
-#box1 {
-  background: url(assets/images/IMG_3539.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-    
-}
 
-#box2 {
-  background: url(assets/images/IMG_3754.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box3 {
-  background: url(assets/images/BookCoverRoughDraft_WelterN.jpg);  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box4 {
-  background: url(assets/images/IMG_3543.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box5 {
-  background: url(assets/images/IMG_0349.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box6 {
-  background: url(assets/images/IMG_3542.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#box7 {
-  background: url(assets/images/IMG_3540.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-}
-
-#box8 {
-  background: url(assets/images/stickerdesign_Welter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box9 {
-  background: url(assets/images/FormstormingFinal_WelterN.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box10 {
-  background: url(assets/images/IMG_3544.JPG);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#box11 {
-  background: url(assets/images/WelterNicole_LACPoster_Final.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#box12 {
-  background: url(assets/images/Grids_Welter_Nicole.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 .button {
     display: block;
     width: 20%;
