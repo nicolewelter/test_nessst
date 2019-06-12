@@ -111,8 +111,8 @@ a, nav p {
     grid-template-rows: repeat (4, 1fr);
     grid-gap: 2%;
     margin: 1.5%;
-    width: 20%;
-    height: 40%;
+    width: 35%;
+    height: 50%;
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5%;
@@ -122,9 +122,9 @@ a, nav p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 25%;
+    width: 35%;
     margin: 1.5% 0;
-    height: 75%;
+    height: 50%;
 }
 
 #rotate {
