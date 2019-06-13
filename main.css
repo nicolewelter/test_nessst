@@ -106,7 +106,7 @@ a, nav p {
 }
 
 .gallery {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -115,7 +115,7 @@ a, nav p {
 }
 
 .tile {
-    width: 23%;
+    width: 20%;
     margin: 1.5% 0;
 }
 
