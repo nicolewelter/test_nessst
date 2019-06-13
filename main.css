@@ -106,19 +106,16 @@ a, nav p {
 }
 
 .gallery {
-    display: grid;
-    grid-gap: 5%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 25% ;
-    grid-auto-flow: dense;
-    margin: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
 }
 
 .tile {
-    width: 100%;
-    height: 75%;
-    object-fit: cover;
-    width: 20%;
+    width: 23%;
     margin: 1.5% 0;
 }
 
