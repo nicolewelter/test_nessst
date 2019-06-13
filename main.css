@@ -106,154 +106,23 @@ a, nav p {
 }
 
 .gallery {
-	display: flex; 
-	flex-flow: row wrap;
-	justify-content: space-between;
-	height: 60vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-auto-rows: 250px ;
+    grid-auto-flow: dense;
+    
+    margin: 50px;
 }
 
 .tile {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
     width: 20%;
     margin: 1.5% 0;
 }
 
-#rotate {
-    
-}
-
-#img1 {
-  	background: url('assets/images/IMG_3539.JPG');
-  	grid-column-start: 1;
-  	grid-column-end: 2;
-  	grid-row-start: 1;
-  	grid-row-end: 2;
-  	background-size: cover;
-  	background-position: center;
-	transform: rotate(90deg);
-    
-}
-
-#img2 {
-  background: url('assets/images/IMG_3504.JPG');
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img3 {
-  	grid-column-start: 3;
-  	grid-column-end: 4;
-  	grid-row-start: 1;
-  	grid-row-end: 2;
-  	background: url('assets/images/BookCoverRoughDraft_WelterN.jpg');  
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center;
-	transform: rotate(90deg);
-}
-
-#img4 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background: url('assets/images/IMG_3543.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img5 {
-  background: url('assets/images/IMG_0349.JPG');
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img6 {
-  background: url('assets/images/IMG_3542.JPG');
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img7 {
-  background: url('assets/images/IMG_3540.JPG');
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-}
-
-#img8 {
-  background: url('assets/images/stickerdesign_Welter.jpg');
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img9 {
-  background: url('assets/images/FormstormingFinal_WelterN.jpg');
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#img10 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: url('assets/images/IMG_3544.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#img11 {
-  	grid-column-start: 3;
-  	grid-column-end: 4;
-  	grid-row-start: 3;
-  	grid-row-end: 4;
-  	background: url('assets/images/WelterNicole_LACPoster_Final.jpg');
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center;
-	transform: rotate(90deg);
-}
-
-#img12 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  background: url('assets/images/Grids_Welter_Nicole.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-}
 
 .button {
     display: block;
