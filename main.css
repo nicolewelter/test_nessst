@@ -64,7 +64,7 @@ a, nav p {
     color: gray;
 }
 
-.slideshow {
+.top-gallery {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +75,7 @@ a, nav p {
 
 }
 
-#slideshow-caption {
+#gallery-caption {
     align-self: flex-end;
     width: 100%;
     height: 55px;
@@ -237,7 +237,7 @@ header {
     height: 60vh;
 }
 
-#alternate-imgs {
+#alt-picture {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -245,11 +245,11 @@ header {
     margin-bottom: 3.5%;
 }
 
-.slideshow, .profile-tile, .profile-box {
+.top-gallery, .profile-alt, .profile-box {
     border: solid 10px white;
 }
 
-.profile-tile {
+.profile-alt{
     width: 30%;
 }
 
