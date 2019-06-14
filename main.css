@@ -245,7 +245,7 @@ header {
     margin-bottom: 3.5%;
 }
 
-.top-gallery, .profile-alt, .profile-box {
+.gallery, .profile-alt, .profile-box {
     border: solid 10px white;
 }
 
@@ -288,3 +288,13 @@ header {
     margin-block-start: .6rem;
 }
 
+@media (max-width: 850px) {
+    .tile {
+        width: 30%;
+    }
+    .mini-gallery {
+        display: none;
+    }
+    .about, .footer-nav {
+        width: 45%;
+    }
