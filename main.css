@@ -106,16 +106,17 @@ a, nav p {
 }
 
 .gallery {
-    width: 95%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5%;
 }
 
 .tile {
-    width: 15%;
+    width: 20%;
     margin: 2.5%;
 }
 
