@@ -295,7 +295,7 @@ header {
     background-image: url(../assets/images/WelterNicole_LACPoster_Final.jpg);
     background-size: cover;
     background-position: center;
-    height: 40vw;
+    height: 60vw;
 }
 
 @media (max-width: 750px) {
