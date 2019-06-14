@@ -106,7 +106,7 @@ a, nav p {
 }
 
 .gallery {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -116,7 +116,7 @@ a, nav p {
 }
 
 .tile {
-    width: 20%;
+    width: 25%;
     margin: 2.5%;
 }
 
