@@ -288,6 +288,16 @@ header {
     margin-block-start: .6rem;
 }
 
+#profile-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/images/WelterNicole_LACPoster_Final.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+}
+
 @media (max-width: 750px) {
     .tile {
         width: 30%;
